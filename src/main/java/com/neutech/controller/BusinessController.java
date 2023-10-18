@@ -16,6 +16,7 @@ public class BusinessController {
     @Autowired
     private BusinessService businessService;
 
+
     @GetMapping("/list")
     public String list(){
         return "business/list";
