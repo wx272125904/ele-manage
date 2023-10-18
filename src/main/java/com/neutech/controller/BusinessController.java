@@ -17,6 +17,7 @@ public class BusinessController {
     private BusinessService businessService;
 
 
+
     @GetMapping("/list")
     public String list(){
         return "business/list";
