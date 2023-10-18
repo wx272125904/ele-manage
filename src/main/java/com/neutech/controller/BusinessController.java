@@ -21,6 +21,12 @@ public class BusinessController {
         return "business/list";
     }
 
+    /**
+     * 分页查询
+     * @param pageNum
+     * @param pageSize
+     * @return
+     */
     @GetMapping("/listByPage")
     @ResponseBody
     public LayuiVO listByPage(@RequestParam(defaultValue = "1") Integer pageNum,
